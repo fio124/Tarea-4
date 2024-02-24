@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background-image: url('Imagenes/logo2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 284px;
+}
+
+.content{
+    width: 100%;
+    align-self: center;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 1px;
+    display: inline-block;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #DF8DBF;
+    display: block;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #E4ACCC;
+    border-bottom: solid 1px #E4A0CC;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+aside {
+    width: 210px;
+    margin-right: 39px;
+    text-align: justify;
+}
+
+.news {
+    background-color: #F3D5E7;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.news h2 {
+    font-size: 20px;
+    color: #DF8DBF;
+    margin-bottom: 12px;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news ul li {
+    margin-bottom: 5px;
+}
+
+
+.news h3:hover {
+    color: #CD57A5;
+    text-decoration: solid;
+    text-align: justify;
+}
+
+article {
+    width: 670px;
+    text-align: justify;
+    float: right;
+    border-radius: px;
+}
+
+article img{
+    max-width: 95px;
+    height: auto;
+    margin-right:10px ;
+}
+
+article p{
+    display: flex;
+}
+
+article h2 {
+    font-size: 30px;
+    color: #CD57A5;
+    margin-bottom: 26px;
+    display: block;
+    border-bottom: solid 2px;
+    text-align: center;
+}
+
+article h3{
+    color: #DF8DBF;
+    text-align: center;
+}
+
+footer {
+    background-color: #CD57A5;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-top: 200px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    header img {
+        width: 100%;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0; 
+    }
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+    main {
+        padding: 0; 
+    }
+    aside {
+        margin-top: 0; 
+    }
+    article {
+        margin-right: 0; 
+    }
+}
